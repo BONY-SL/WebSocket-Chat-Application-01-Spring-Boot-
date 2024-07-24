@@ -55,7 +55,7 @@ function onError(){
     connectingElement.style.color ='red';
 }
 function onMessageReceived(payload) {
-    
+
     var message = JSON.parse(payload.body);
 
     var messageElement = document.createElement('li');
